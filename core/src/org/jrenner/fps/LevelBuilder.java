@@ -102,7 +102,7 @@ public class LevelBuilder {
 		if (Main.isServer()) {
 			Log.debug("createLevel - create static models");
 			// server creates static models here, client will create the models when received from server upon connection
-			createStaticModels(2);
+			createStaticModels(1);
 		}
 
 		Log.debug("createLevel - create boxes");
